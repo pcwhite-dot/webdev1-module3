@@ -95,7 +95,7 @@ body {
     margin: 2rem auto;
     /* Centrally align the container horizontally */
     padding: 0;
-    background-color: white;
+    background-color: lightblue;
     /* Background color of the container */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     /* Add shadow around the container */
@@ -106,7 +106,7 @@ body {
 }
 
 .sidebar {
-    flex: 1;
+    flex: 1.5;
     /* Take up 1 fraction of the available space */
     display: flex;
     /* Apply Flexbox layout */
@@ -116,7 +116,7 @@ body {
     /* Distribute space evenly between the children */
     padding: var(--sidebar-spacing);
     /* Add padding around the sidebar content */
-    background-color: var(--color-secondary);
+    background-color: lightgreen;
     /* Background color of the sidebar */
     color: white;
     /* Text color in the sidebar */
